@@ -1,0 +1,163 @@
+.center {
+  text-align: center;
+  margin: 50px 50px;
+ 
+}
+.brand-name {
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 15px;
+  text-align: start !important;
+  font-size: 4rem;
+}
+.list-body {
+  border: solid red;
+  position: relative;
+}
+
+.pokemon-brand{
+  display: flex;
+  justify-content: start;
+  margin: 20px 10px;
+}
+
+.search-list {
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.search-list input {
+  height: 40px;
+  width: 15vw;
+}
+
+.search-list button {
+  height: 40px;
+}
+
+.search-list button:hover {
+  background-color: red;
+}
+
+.list-name {
+  text-transform: capitalize;
+  color: black;
+}
+.pokemon-list-item {
+  border: 2px solid salmon;
+}
+
+.scrollableDiv {
+text-align: center;
+}
+
+.link-pokemon {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.link-pokemon:hover{
+  transform: scale(1.1);
+}
+
+.center-list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.specific-pokemon {
+  border: solid red;
+  margin-top: 50px;
+}
+
+.first-row {
+  border-bottom: solid red;
+
+}
+.image-side {
+  border-right: solid red;
+}
+
+.title-image,
+.item-stats,
+.item-abilities,
+.item-type {
+  margin-top: 35px;
+}
+
+.head-name {
+  text-transform: capitalize;
+  text-align: left !important;
+  width: 50%;
+}
+
+.table-stat {
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+.table-type {
+  text-transform: capitalize;
+}
+
+.con-stat{
+  position: relative;
+}
+
+.return-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: flex-end;
+  bottom: 0;
+}
+
+.floating-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 100%;
+  background: #f44336;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  box-shadow: 0 3ox 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media only screen and (max-width: 1030px){
+  .floating-btn {
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+}
+
+
+.formLabel {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.list-poke {
+  position: relative;
+}
